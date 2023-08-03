@@ -16,7 +16,7 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import java.util.ArrayList;
 import java.util.List;
 
-@Slf4j
+
 @Setter
 @Component
 @RequiredArgsConstructor
@@ -46,7 +46,7 @@ public class TelegramBot extends TelegramLongPollingBot {
     }
 
     private void startCommandReceived(Long chatId, String name) {
-        log.info("Replied to user " + name);
+        System.out.println("Replied to " + name);
         messageButtons.forEach(messageButton -> {
             sendMessageWithLinkButton(chatId, messageButton);
             try {
@@ -68,7 +68,7 @@ public class TelegramBot extends TelegramLongPollingBot {
         try {
             execute(sendMessage);
         } catch (TelegramApiException e) {
-            log.error("Error occurred" + e.getMessage());
+            System.out.println("Error occurred" + e.getMessage());
         }
     }
 

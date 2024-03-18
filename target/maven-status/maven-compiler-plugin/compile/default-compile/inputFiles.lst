@@ -1,7 +1,11 @@
 C:\D_disk\CossacsTelegramBot\src\main\java\com\telegram\bot\CossacsTelegramBotApplication.java
 C:\D_disk\CossacsTelegramBot\src\main\java\com\telegram\bot\dto\TelegramMessageButtonDto.java
+C:\D_disk\CossacsTelegramBot\src\main\java\com\telegram\bot\dao\MessageDao.java
 C:\D_disk\CossacsTelegramBot\src\main\java\com\telegram\bot\service\TelegramBot.java
 C:\D_disk\CossacsTelegramBot\src\main\java\com\telegram\bot\config\BotConfig.java
 C:\D_disk\CossacsTelegramBot\src\main\java\com\telegram\bot\config\BotInitializer.java
-C:\D_disk\CossacsTelegramBot\src\main\java\com\telegram\bot\controller\BotController.java
+C:\D_disk\CossacsTelegramBot\src\main\java\com\telegram\bot\service\UploadFilesService.java
+C:\D_disk\CossacsTelegramBot\src\main\java\com\telegram\bot\config\WebConfig.java
+C:\D_disk\CossacsTelegramBot\src\main\java\com\telegram\bot\dto\AddMessage.java
+C:\D_disk\CossacsTelegramBot\src\main\java\com\telegram\bot\dto\Button.java
 C:\D_disk\CossacsTelegramBot\src\main\java\com\telegram\bot\controller\HomeController.java
